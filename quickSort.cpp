@@ -12,7 +12,7 @@ int Partition(int r[], int s, int t){
 			j--;
 		if(i < j)
 			r[i++] = r[j];              /*交换r[i]和r[j]*/
-		while((r[i] < temp) && (i < j))
+		while((r[i] <= temp) && (i < j))
 			i++;
 		if(i < j)
 			r[j--] = r[i];              /*交换r[i]和r[j]*/
