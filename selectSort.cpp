@@ -3,9 +3,11 @@
 */
 #include<stdio.h>
 typedef int KeyType;
+
 typedef struct{
 	KeyType key;
 }RecordType;
+
 void DispList(RecordType r[], int n);
 
 void Select_Sort(RecordType r[], int n){/*简单选择排序*/
