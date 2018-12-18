@@ -1,7 +1,6 @@
 #include <iostream>
-int main()
-{
-    using namespace std;
-    cout << "Hello world, C! \r\n";
-    return 0;
+int main(){
+  using namespace std;
+  cout << "Hello world, C! \r\n";
+  return 0;
 }
