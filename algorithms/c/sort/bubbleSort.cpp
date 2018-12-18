@@ -13,17 +13,17 @@ int main(){
 		scanf("%d", &a[i]);
 	}
 	for(i = 0; i < n-1; i++) //进行n次循环  
-    {  
-      for(int j= i+1; j < n; j++) //循环比较剩余的变量
-      {
-        if(a[i] > a[j]) //如果前面一个数比后面数大，交换两个数的值
-        {
-          temp = a[i];
-          a[i] = a[j];
-          a[j] = temp;
-        }
-      }
-    }  
+  {  
+     for(int j= i+1; j < n; j++) //循环比较剩余的变量
+     {
+       if(a[i] > a[j]) //如果前面一个数比后面数大，交换两个数的值
+       {
+         temp = a[i];
+         a[i] = a[j];
+         a[j] = temp;
+       }
+     }
+  }  
 	for(i = 0; i < n; i++){
 		printf("%d  ", a[i]);
 	}
